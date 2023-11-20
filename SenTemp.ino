@@ -6,7 +6,7 @@
 
 //Selecciona el pin al que se conecta el sensor de temperatura
 
-const int oneWireBus = 4;
+const int oneWireBus = 5;
 
 //Comunicar que vamos a utilizar la interfaz oneWire
 
@@ -30,7 +30,7 @@ void loop() {
 
   //Leer la temperatura
 
-  Serial.print("Mandando comandos a los sensores ");
+  Serial.print("Temperatura del paciente ");
 
   sensors.requestTemperatures();
 
@@ -40,7 +40,7 @@ void loop() {
 
  //Escribir los datos en el monitor de serie
 
-   Serial.print("Temperatura sensor : ");
+   
 
   Serial.print(temperatureC);
 
@@ -49,5 +49,7 @@ void loop() {
   // Lectura de la temperatura cada 5 segundos
 
   delay(5000);
+
+}
 
 }
