@@ -74,7 +74,7 @@ void reconnect(){
 void setup_wifi(){
 
   Serial.begin(9600);
-  WiFi.begin("Educatronicos","Edu12345"); //se habilitará el modo estación
+  WiFi.begin("Proyectoprocesos2","Uam11111"); //se habilitará el modo estación
 
   // Mientras el ESP32 no se conecte al AP:
   while(WiFi.status() != WL_CONNECTED){
