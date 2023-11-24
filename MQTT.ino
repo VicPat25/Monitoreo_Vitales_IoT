@@ -1,5 +1,5 @@
 /********************************
- * Programa: NOMBRE
+ * Programa: Conexión de ESP32 con Node-RED
  * 
  * Descripción: En este código se realiza una comunicación MQTT en una Red LAN mediante una esp32 y NodeRed 
  *
@@ -24,8 +24,8 @@
 
 
 
-const char* ssid = "Educatronicos";
-const char* password = "Edu12345";
+const char* ssid = "Proyectoprocesos2";
+const char* password = "Uam11111";
 const char* mqtt_server = "broker.emqx.io";
 
 WiFiClient espClient;
